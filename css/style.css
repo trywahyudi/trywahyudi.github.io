@@ -1,213 +1,73 @@
-/* Navbar */
-.navbar {
-  background: linear-gradient(to right, #ffffff, #e6ab3e00);
+/* Home */
+#home {
+  background: url(/img/safar-safarov-LKsHwgzyk7c-unsplash.jpg) no-repeat center
+    center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
 }
 
-.navbar-brand img {
-  width: 150px;
-}
-
-.navbar-nav .nav-link:hover::after {
-  content: " ";
-  display: block;
-  border: 1px solid #ffa903;
-  margin: auto;
-  width: 50%;
-  margin-bottom: -10px;
-}
-
-.navbar-nav .nav-link {
-  margin: 0 20px;
-  font-family: raleway;
-  font-weight: 600;
-  font-size: 16px;
-}
-/* Akhir Navbar */
-
-/* Banner */
-#banner img {
-  width: 100%;
-}
-
-#banner .deskripsi-banner {
-  margin-top: 163px;
-}
-
-#banner 
-
-.link {
-  margin-left: 15px;
-}
-
-#banner .caption {
-  margin: 30px 0;
-}
-/* Akhir Banner */
-
-/* About */
-#about {
-  margin-top: 150px;
-}
-
-#about img {
-  width: 100%;
-}
-
-#about p span {
-  color: #84d387;
+#home h4 {
   font-family: poppins;
+  font-weight: 600;
+  color: rgb(104, 207, 100);
+  font-size: 40px;
 }
 
-#about .deskripsi-about {
-  margin-left: 200px;
+#home h3 {
+  font-size: poppins;
+  color: #909942;
+  font-size: 45px;
+}
+/* Akhir Home */
+
+/* Portofolio */
+#profile {
   margin-top: 50px;
 }
 
-#about .caption {
-  margin: 30px 0;
+#profile .card-img {
+  object-fit: cover;
 }
 
-#about .btn {
-  margin-bottom: 100px;
-}
-/* Akhir About */
-
-/* Menu */
-#menu {
-  margin-top: 150px;
-}
-#menu h1 {
-  text-align: center;
-}
-
-#menu p {
-  text-align: center;
-}
-
-#menu .card {
-  margin-top: 30px;
-  margin-bottom: 150px;
-}
-
-#menu .card-title {
-  text-align: center;
-  font-family: raleway;
+#profile h3 {
+  font-family: poppins;
   font-weight: 600;
+  font-size: 50px;
 }
-#menu .card-text {
-  text-align: center;
-  font-family: raleway;
-  font-weight: 400;
-  color: #ffa903;
-}
+/* Akhir Portofolio */
 
-/* Akhir Menu */
-
-/* Info */
-#info {
+/* contact */
+#contact {
   margin-top: 150px;
 }
 
-#info .input-group {
-  width: 610px;
-  margin-left: 23%;
-  margin-top: 20px;
-  border: 1px solid #ffa903;
-  border-radius: 5px;
+#contact h3 {
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 40px;
 }
 
-#info .btn {
-  margin-top: 30px;
-  margin-bottom: 150px;
-}
-/* Akhir Info */
-
-/* Footer */
-
-#footer img {
-  width: 150px;
-}
-
-#footer .caption {
-  margin: 20px 0;
-}
-
-#footer a {
-  font-size: 33px;
-  margin: 0 8px;
+#contact a {
+  font-size: 50px;
+  margin: 0 20px;
   color: #acacac;
 }
-
-#footer h6 {
-  font-family: poppins;
-  font-weight: 600;
-  margin-top: 15px;
-}
-
-#footer .deskripsi-footer {
-  margin-top: 35px ;
-}
-/* Akhir Footer */
-
-/* utilittles */
-.btn {
-  border-radius: 140px;
-  width: 162px;
-  height: 40px;
-  color: white;
-  font-family: raleway;
-  font-weight: 600;
-}
-
-.link {
-  color: #ffa903;
-}
-
-h1 {
-  font-family: poppins;
-  font-size: 35px;
-  font-weight: 600;
-}
-
+/* Akhir contact */
+ 
+/* utilitis */
 .caption {
-  color: #acacac;
+  margin-top: 50px;
+}
+
+.card-text {
   font-family: poppins;
-  font-size: 14px;
+  color: #acacac;
 }
 
-h1 span {
-  color: #ffa903;
+.text {
+  font-family: poppins;
+  font-size: 16px;
+  color: #acacac;
 }
-
-.lihat {
-  color: #ffffff;
-}
-/* Akhir */
-
-/* banner-service */
-#banner-service {
-  margin-top: 150px;
-}
-#banner-service img {
-  width: 290px;
-  margin-top: 100px;
-}
-/* Akhir Banner Service */
-
-/* Service */
-#service {
- margin-top: 150px;
- margin-bottom: 150px; 
-}
-
-#service img {
-  width: 77px;
-}
-
-#service h5 {
-  margin: 15px 0;
-}
-#service .caption {
-  margin-bottom: 100px ;
-}
-/* Akhir Service */
