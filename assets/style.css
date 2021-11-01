@@ -1,0 +1,70 @@
+/* Navbar */
+.navbar-brand {
+    font-family: viga;
+}
+
+.nav-link {
+    font-family: poppins;
+    font-weight: 400;
+}
+/* Akhir Navbar */
+
+/* Jumbotron */
+.jumbotron {
+    padding-top: 6rem;
+    background-color: #e2edff;
+}
+/* Akhir Jumbotron */
+
+/* Project */ 
+#project {
+    background-color: #e2edff;
+}
+
+/* Galery */
+#galery .row > * {
+    padding: 0;
+}
+
+#galery .galery-img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Akhir Galery */
+
+/* utilitis */
+section {
+    padding-top: 5rem;
+}
+
+.text {
+    font-family: poppins;
+}
+
+.pragraf {
+    color: #acacac;
+}
+
+.logo {
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: poppins;
+}
+
+.display-4 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.card-text {
+    color: #acacac;
+    text-align: center;
+}
+
+.lead {
+    font-family: poppins;
+    font-size: 16px;
+    color: #acacac;
+}
